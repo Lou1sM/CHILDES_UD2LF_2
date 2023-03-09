@@ -1,0 +1,3 @@
+lots_of was a single word, a determiner, so the child of the N, but now it's splits into lots(N) and of(ADP), where 'lots' is the parent of the noun and 'of' is the child, have left the UPOS and XPOS of 'of' as det and qn, not sure if this is right, maybe lots should have morphology column as PL? haven't done that now though
+I ran reorder_columns.py, then manually changed the output, then ran split_compounds.py on the changed output; messy alright but changing the original would have meant changing with the old column order and that would have been confusing, have to make sure not to overwrite my manual changes by rerunning reorder_columns.py
+I defo think 28058, which I've had to modify because of a_lot_of, is wrong, but leaving it as is for now

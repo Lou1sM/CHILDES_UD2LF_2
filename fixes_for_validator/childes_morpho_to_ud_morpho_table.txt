@@ -1,0 +1,18 @@
+CHILDES form        CHILDES description         UD features
+
+CP                  comparative                 ?
+SP                  superlative                 ?
+dn                  derived from noun           ?
+PRESP               present participle          Tense=Pres|Aspect=Perf
+ZERO                missing word                ?
+3S                  third singular              Number=Sing|Person=3
+PL                  nominal plural              Number=Plur
+PASTP               past particple              Tense=Past|Aspect=Perf
+dv                  derived from verb           ?
+PRES                present                     Tense=Pres
+dadj                derived from adjective      ?
+COND                conditional                 ?
+DIM                 diminutive                  ?
+FULL                denominal                   ?
+PAST                past                        Tense=Past
+1S                  first singular              Number=Sing|Person=1
