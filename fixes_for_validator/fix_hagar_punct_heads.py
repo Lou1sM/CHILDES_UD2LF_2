@@ -1,3 +1,6 @@
+"""Fix examples where a PUNCT node is the head."""
+
+
 def process_form(form):
     words = form.split('\n')
     roots = [w for w in words if w.split()[6] == '0' and w.split()[7] == 'root']
